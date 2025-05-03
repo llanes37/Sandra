@@ -175,13 +175,15 @@ public class UT3_POO_GestionAlumnos {
 
         // ! Lista de estudiantes
         ArrayList<Estudiante> estudiantes = new ArrayList<>();
+        ArrayList<Profesor> profesores = new ArrayList<>();
        
         // ! Agregamos estudiantes
         estudiantes.add(new Estudiante("Juan", 20, "Matemáticas"));
         estudiantes.add(new Estudiante("María", 22, "Historia"));
         estudiantes.add(new Estudiante("Carlos", 19, "Física"));
         estudiantes.add(new Estudiante("siham", 19, "Física"));
-
+        estudiantes.add(new Estudiante("joaquin", 19, "Física"));
+        profesores.add(null);
         // ! Mostramos información de los estudiantes
         System.out.println("\n📋 Lista de Estudiantes:");
         for (Estudiante e : estudiantes) {
